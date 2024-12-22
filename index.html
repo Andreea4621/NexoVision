@@ -1,0 +1,658 @@
+<!doctype html>
+
+<head>
+    <html lang="ro">
+    <title>NexoVision</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Romcea Andreea">
+    <meta name="keywords" content="HTML, Companie IT, Compania NexoVision ">
+    <meta name="description"
+        content="NexoVision este o companie IT cu peste 20 de ani de experiență, specializată în administrarea echipamentelor IT, serverelor, rețelelor și soluțiilor cloud. Oferim consultanță IT și infrastructură pentru afaceri, asigurând soluții tehnice eficiente, suport dedicat și tehnologii moderne pentru nevoile tale. Simplificăm procesele IT pentru ca tu să te concentrezi pe succesul afacerii tale.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            background-color: #efe7ff;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h1 {
+            color: #3e0340;
+            text-align: center;
+        }
+
+        .rând {
+            display: flex;
+        }
+
+        .img-sister {
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+        }
+
+        .img-sister-row img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .sectiune {
+            padding: 20px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            background-color: #36b0d9;
+            border-radius: 25px;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .image-box {
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .image-box img {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px
+        }
+
+        .image-box p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #060000;
+        }
+
+
+        .rand {
+            display: flex;
+        }
+
+        .box-container {
+            width: 50%;
+            margin: 30px;
+            background: rgb(169, 172, 239);
+        }
+
+        .box {
+            padding: 20px;
+        }
+
+        .box-h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .chenar {
+            padding: 10px;
+            margin-right: 5px;
+            border: 1px solid black
+        }
+
+        footer {
+            background-color: #9bf7ff;
+            padding: 10px;
+            text-align: left;
+            font-size: larger;
+        }
+
+        .p {
+            text-align: center;
+            color: #3e0340;
+        }
+
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 40px;
+            margin-left: 100px;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 16px;
+            color: rgb(12, 7, 1);
+        }
+
+        footer {
+            background-color: #343434;
+            padding-top: 50px;
+        }
+
+        .cont {
+            width: 1140px;
+            margin: auto;
+            display: flex;
+        }
+
+        .footer {
+            width: auto;
+        }
+
+        .footer-content p {
+            width: 1200px;
+            margin: auto;
+            padding: 8px;
+            color: white;
+
+        }
+
+        .footer h3 {
+            color: white;
+        }
+
+        h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            ;
+            text-align: center;
+        }
+
+        .social {
+            align-items: center;
+            text-align: center;
+        }
+
+        .bottom-bar {
+            background-color: rgb(255, 252, 77);
+            text-align: center;
+            padding: 2px;
+            margin-top: 30px;
+        }
+
+        .bottom-bar p {
+            color: rgb(3, 3, 16);
+            margin: 0;
+            font-size: 16px;
+            padding: 3px;
+        }
+    </style>
+</head>
+<header>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pexels-pixabay-269077.jpg" class="d-block w-100"
+                    alt="Clădire modernă de birouri, cu fațadă din sticlă reflectorizantă, înconjurată de vegetație verde, pe fundal de cer senin.">
+                <div class="carousel-caption d-none d-md-block">
+                   
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="pexels-jakubzerdzicki-28213382.jpg" class="d-block w-100"
+                    alt="Stație de lucru modernă cu un laptop deschis, un monitor extern deasupra și o grămadă de caiete și tablete pe un birou din lemn, în fundal având despărțitoare albastre pentru birouri.">
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="adult-business-businessman.jpg" class="d-block w-100"
+                    alt="O persoană folosind un laptop deschis pe o masă de lemn, afișând o interfață de e-mail. Pe masă se află un telefon, o ceașcă de cafea și diverse obiecte personale, iar în fundal se văd alți oameni într-un spațiu de birou modern.">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beard-chair-computer.jpg" class="d-block w-100"
+                    alt="Bărbat care sta pe un scaun în fața unui computer într-un birou modern">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="flatlay.jpg" class="d-block w-100"
+                    alt="O masă de lucru cu mai multe laptopuri, telefoane, căști, caiete și accesorii tech,">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</header>
+
+<body>
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                   <h1> <a class="navbar-brand" href="#">
+                        <img src="setting.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                       NexoVision
+                    </a></h1>
+
+                    <a class="navbar-brand" href="#Despre NexoVision">Despre noi</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Servicii oferite">Servicii</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Evolutia companiei">Evoluția companiei</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Altele
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#Abonamente">Abonamente</a></li>
+                                    <li><a class="dropdown-item" href="#Întrebări Frecvente (FAQ)">Întrebări Frecvente
+                                            (FAQ)</a></li>
+                                    <li><a class="dropdown-item" href="#Contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </nav>
+
+    </nav>
+    <div id="Despre NexoVision">
+        <h2>Despre Noi</h2>
+    </div>
+    <p>NexoVision este o companie IT inovatoare, fondată în anul 2010, având misiunea de a transforma ideile în
+        realitate prin soluții tehnologice de înaltă calitate. Într-o lume aflată în continuă schimbare, credem în
+        puterea tehnologiei de a îmbunătăți viața oamenilor și de a accelera succesul afacerilor.
+
+        De-a lungul anilor, NexoVision a devenit un lider de piață, colaborând cu organizații de toate dimensiunile, de
+        la startup-uri la corporații multinaționale. Cu o echipă de experți în tehnologii emergente, suntem recunoscuți
+        pentru inovația, creativitatea și angajamentul nostru față de excelență.</p>
+    <h3>Misiunea noastră</h3>
+    <p>NexoVision, ne dorim să construim punți între tehnologie și afaceri, oferind soluții care creează valoare. Credem
+        că tehnologia nu este doar un instrument, ci și o forță capabilă să schimbe lumea. Prin proiectele noastre, ne
+        propunem să susținem creșterea sustenabilă, să promovăm progresul economic și să dezvoltăm comunități prin
+        inovație digitală.</p>
+    <h3>Valorile noastre</h3>
+    <ul>
+        <li>
+            Inovație continuă: Căutăm mereu noi modalități de a depăși limitele tehnologiei.
+        </li>
+        <li>
+            Orientare către client: Ne dedicăm înțelegerii profunde a nevoilor clienților noștri.
+        </li>
+        <li>
+            Colaborare și integritate: Construim parteneriate bazate pe încredere și respect reciproc.
+        </li>
+        <li>
+            Sustenabilitate: Dezvoltăm soluții durabile care contribuie la un viitor mai bun pentru toată lumea.
+        </li>
+    </ul>
+    <h3>Echipa noastră</h3>
+    <p>Echipa NexoVision este formată din peste 100 de specialiști, care acoperă o gamă largă de competențe:
+        dezvoltatori software, experți în inteligență artificială, specialiști în cloud computing și analiști de
+        business. Credem că diversitatea abilităților și pasiunii fiecăruia contribuie la succesul proiectelor noastre.
+    </p>
+    <div class="sectiune">
+        <div class="image-row">
+            <div class="image-box">
+                <img src="w (4).jpg" alt="O femeie care ține în mână un dosar albastru">
+                <p>Elena Marin - Administrator de sistem</p>
+            </div>
+            <div class="image-box">
+                <img src="m (19).jpg" alt="Un bărbat cu ochelari care se uită la noi">
+                <p>Mihai Ionescu - Dezvoltator software</p>
+            </div>
+            <div class="image-box">
+                <img src="w (6).jpg" alt="O femeie blondă care zâmbește și ține în mână un dosar portocaliu">
+                <p>Alexandra Popescu - Specialist în securitate cibernetică</p>
+            </div>
+        </div>
+    </div>
+    <div id="Servicii oferite">
+        <div class="chenar">
+            <h2>Servicii oferite</h2>
+        </div>
+        <p>
+            NexoVision oferă un portofoliu variat de servicii IT, adaptate nevoilor specifice ale fiecărui client.
+            Ne concentrăm pe livrarea de soluții personalizate care să răspundă provocărilor actuale și să deschidă
+            noi oportunități de dezvoltare.</p>
+        <div class="sectiune">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="code6.jpg" class="card-img-top"
+                            alt="Două persoane care colaborează la un laptop, analizând și discutând cod afișat pe ecran, într-un mediu profesional.">
+                        <div class="card-body">
+                            <h2 class="card-text">
+                                <h2>1. Gestionarea serverelor</h2>
+                                <ul>
+                                    <li>
+                                        Configurare, administrare și întreținere a serverelor fizice și virtuale.
+                                    </li>
+                                    <li>
+                                        Backup și restaurare periodică a datelor pentru a preveni pierderile.
+                                    </li>
+                                    <li> Optimizarea bazelor de date și gestionarea accesului utilizatorilor.</li>
+                                </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="program-6944163_1280.jpg" class="card-img-top" alt="Cod de programare pe un ecran">
+                        <div class="card-body">
+                            <h2 class="card-text">
+                                <h2>2. Securitate IT</h2>
+                                <ul>
+                                    <li>
+                                        Implementarea soluțiilor avansate de protecție împotriva atacurilor cibernetice,
+                                        inclusiv
+                                        firewall-uri, antivirus și monitorizare a rețelei.
+                                    </li>
+                                    <li>
+                                        Audituri de securitate pentru a identifica și remedia vulnerabilitățile din
+                                        sistemele
+                                        existente.
+                                    </li>
+
+                                </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="email-3543958_1280.jpg" class="card-img-top"
+                            alt="O ilustrație cu mâini care trimit mesaje de pe un telefon mobil, cu multe plicuri care plutesc pe un fundal albastru, simbolizând comunicarea prin email.">
+                        <div class="card-body">
+                            <h2 class="card-text">
+                                <h2>3. Administrarea infrastructurii IT</h2>
+                                <ul>
+                                    <li>
+                                        Monitorizarea continuă a serverelor și rețelelor pentru a preveni și remedia
+                                        problemele
+                                        înainte ca acestea să afecteze afacerea ta.
+                                    </li>
+                                    <li>
+                                        Optimizarea performanței echipamentelor pentru a asigura funcționarea fără
+                                        întreruperi.
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Evolutia companiei">
+        <h2>Evoluția companiei</h2>
+    </div>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Anul 2010
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Începutul:</strong> Compania NexoVision a fost fondată cu misiunea de a oferi soluții
+                    software inovatoare și personalizate pentru afaceri mici și mijlocii, concentrându-se pe eficiență
+                    și tehnologii de ultimă generație.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Anul 2015
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Extinderea echipei:</strong>Echipa NexoVision a crescut semnificativ, ajungând la peste 50
+                    de specialiști în domenii precum dezvoltare software, testare și management de proiect. Acest pas a
+                    marcat începutul implicării noastre în proiecte mai mari și mai diversificate.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Anul 2022
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Recunoaștere în industrie: </strong>Am fost recunoscuți pentru inovație în domeniul IT,
+                    primind premii prestigioase care atestă angajamentul nostru față de calitate. Am devenit un partener
+                    de încredere pentru companii din industrii variate precum retail, sănătate și logistică.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Anul 2024
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Continuăm să inovăm: </strong> Astăzi, NexoVision este un lider în dezvoltarea de soluții
+                    software personalizate, combinând expertiza tehnologică cu o înțelegere profundă a nevoilor
+                    clienților noștri. Continuăm să ne extindem și să dezvoltăm noi produse pentru o piață aflată în
+                    continuă schimbare.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Testimoniale de la angajați">
+        <div class="sectiune">
+            <h2 class="text-center mb-5 mt-5">Testimoniale de la angajați</h2>
+        </div>
+        <div class="chenar">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="code5.jpg" class="card-img-top"
+                            alt="Un bărbat care ține în mână un bilet pe care scrie cuvântul code">
+                        <div class="card-body">
+                            <p class="card-text">„La NexoVision am găsit un mediu de lucru dinamic,sprijin constant din
+                                partea colegilor și un loc bun pentru desfășurare.” – Dan Popescu, specialist QA.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="w (29).jpg" class="card-img-top"
+                            alt="O femeie îmbrăcată într-un palton, cu fular,care zâmbește și ține în mână un pahar cu cafea">
+                        <div class="card-body">
+                            <p class="card-text">„La NexoVision am descoperit o echipă extraordinară și oportunități de
+                                creștere profesională.” – Ana Popescu, dezvoltator software</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="w (17).jpg" class="card-img-top" alt="O femeie care stă cu bărbia rezemată de mână">
+                        <div class="card-body">
+                            <p class="card-text">„Lucrând la NexoVision, am avut ocazia să contribui la proiecte
+                                inovatoare și să-mi dezvolt continuu abilitățile.” - Maria Popa, manager IT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Abonamente">
+        <h2>Abonamente</h2>
+    </div>
+    <div class="card-group">
+        <div class="card">
+            <img src="team-work.jpg" class="card-img-top"
+                alt="Oameni așezați pe scaune într-un birou cu laptopuri în fața lor și un televizor pus pe perete,care lucrează împreună">
+            <div class="card-body">
+                <h3 class="card-title">Start-Up Essentials</h3>
+                <ul class="card-text">
+                    <li>Preț: 99 €/lună</li>
+                    <li>Descriere: Ideal pentru afaceri mici care au nevoie de suport IT de bază.</li>
+                </ul>
+                <ul>Include:
+                    <li>Monitorizare servere 24/7.</li>
+                    <li>10 ore de suport tehnic/lună.</li>
+                    <li>Backup săptămânal.</li>
+                    <li>Consultanță IT (1 sesiune/lună).
+                </ul>
+                <button type="button" class="btn btn-primary position-relative">
+                    Abonează-te
+                </button>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="code6.jpg" class="card-img-top"
+                alt="Două persoane care colaborează la un laptop, analizând și discutând cod afișat pe ecran, într-un mediu profesional.">
+            <div class="card-body">
+                <h3 class="card-title">Business Pro</h3>
+                <ul class="card-text">
+                    <li>Preț: 299 €/lună</li>
+                    <li>Descriere: Soluția ideală pentru afaceri în creștere cu nevoi IT complexe.</li>
+                </ul>
+                <ul>Include:
+                    <li>Monitorizare în timp real.</li>
+                    <li>30 ore de suport tehnic/lună.</li>
+                    <li>Asistență pentru migrare în cloud.</li>
+                    <li>Soluții de securitate cibernetică de bază.</li>
+                </ul>
+                <button type="button" class="btn btn-primary position-relative">
+                    Abonează-te
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="analytics.jpg" class="card-img-top" alt="Bărbat analizând date pe o tabletă">
+            <div class="card-body">
+                <h3 class="card-title">Enterprise Plus</h3>
+                <ul class="card-text">
+                    <li>Preț: 799 €/lună</li>
+                    <li>Descriere:Oferă soluții IT complete pentru companii mari. </li>
+                </ul>
+                <ul>Include:
+                    <li>Monitorizare proactivă 24/7.</li>
+                    <li>Suport nelimitat.</li>
+                    <li>Soluții personalizate de securitate.</li>
+                    <li>Backup zilnic și testare recuperare date.</li>
+                </ul>
+                <button type="button" class="btn btn-primary position-relative">
+                    Abonează-te
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="Întrebări Frecvente (FAQ)">
+        <h2>Întrebări Frecvente (FAQ)</h2>
+    </div>
+    </div>
+    <ul>
+        <li>Q1: Ce tipuri de servicii IT oferiți?
+            A: Oferim dezvoltare software, soluții de securitate cibernetică, migrare în cloud și suport IT.</li>
+        <li>Q2: Cât durează dezvoltarea unui proiect software?
+            A: Depinde de complexitate, dar în general variază între 2 și 6 luni.</li>
+        <li>Q3: Oferiți suport tehnic 24/7?
+            A: Da, pentru clienții cu contracte de mentenanță.</li>
+        <li>Q4: Cum asigurați securitatea datelor?
+            A: Utilizăm criptare, autentificare multifactorială și monitorizare constantă.</li>
+        <li>Q5: Pot lucra cu voi de la distanță?
+            A: Da, oferim soluții pentru telemuncă și colaborare la distanță.</li>
+    </ul>
+
+
+
+
+
+    <div id="Contact">
+    <h3>Contact</h3>
+                    </div>
+                    <p><img src="telephone.png"> Telefon:</p>
+                    <p><a href="tel:+40356748923">+40356748923</a></p>
+                    <p> <img src="mail (1).png"> Email:</p>
+                    <p><a href="mailto:contact.nexovision@gmail.ro">contact.nexovision@gmail.ro</a></p>
+                    <p><img src="pin (1).png"> Locația biroului:</p>
+                    <div class="location">
+                        <p> <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2733.179877706644!2d23.545010676566925!3d46.76135077112486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e5c339179db%3A0xeaa658b9c947ace7!2sStrada%20Arinilor%2024%2C%20Cluj-Napoca%20400394!5e0!3m2!1sro!2sro!4v1732476362067!5m2!1sro!2sro">
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="p">
+                            </p>
+                        </div>
+    <footer> 
+        <img src="setting.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        NexoVision
+        <div class="social">
+            <a href="https://www.facebook.com/?locale=ro_RO"><img src="facebook.png"
+                    alt="Logo Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="instagram.png" alt="Logo Instagram"></a>
+            <a href="https://www.linkedin.com/"><img src="linkedin.png" alt="Logo Linkedin"></a></p>
+        </div>
+        <div class="bottom-bar">
+            <p>© 2024 NexoVision</p>
+        </div>
+    </a>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
